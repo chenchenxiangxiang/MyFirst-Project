@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*头部*/
+.header{
+    width: 100%;
+    height: 142px;
+}
+.header .header_mid{
+    width: 1200px;
+    height: 142px;
+    margin: auto;
+}
+
+/*头部上方*/
+.header .header_mid .header_mid_top{
+    position: relative;
+    border: 1px solid white;
+    width: 1200px;
+    height: 90px;
+}
+.header .header_mid .header_mid_top .logo{
+    width:192px;
+    height:52px;
+    line-height: 52px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.header .header_mid .header_mid_top .header_mid_top_min{
+    width: 402px;
+    height: 90px;
+    position: absolute;
+    margin-left: 225px;
+    top:0;
+}
+.header .header_mid .header_mid_top .header_mid_top_min ul{
+    list-style: none;
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 18px;
+}
+.header .header_mid .header_mid_top .header_mid_top_min ul li{
+    display: block;
+    float: left;
+    padding: 0 18px;
+}
+.header .header_mid .header_mid_top .header_mid_top_min ul li:hover{
+    color: #45C7A4;
+    cursor: pointer;
+}
+.header .header_mid .header_mid_top .header_mid_top_search{
+    width: 250px;
+    height: 64px;
+    position: absolute;
+    top:0;
+    margin-left: 656px;
+}
+.header .header_mid .header_mid_top .header_mid_top_search .search_input{
+    border: 1px solid #c9c9c9;
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    margin-top: 26px;
+    border-radius:3px;
+}
+.header .header_mid .header_mid_top .header_mid_top_search .search_input input{
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    border: 0 none;
+    margin-left: 12px;
+    outline: none;
+}
+.header .header_mid .header_mid_top .header_mid_top_search .search_input .search_btn{
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    position:absolute;
+    top: 0;
+    border: 0 none;
+    background: 0 0;
+    outline: none;
+}
+.header .header_mid .header_mid_top .header_mid_top_search .search_input .search_btn .icon_search{
+    width: 16px;
+    height: 16px;
+    background:url("image/icon-search.png") 0 -40px no-repeat;
+}
+.header .header_mid .header_mid_top .header_mid_top_search .search_input .search_btn .icon_search:hover{
+    background:url("image/icon-search.png") 0 -60px no-repeat;
+}
+.header .header_mid .header_mid_top .usernameIfo{
+    width: 273px;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.header .header_mid .header_mid_top .usernameIfo ul{
+    list-style: none;
+    height: 120px;
+}
+.header .header_mid .header_mid_top .usernameIfo ul li{
+    margin-top: 25px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .login{
+    width: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right:18px;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .login:hover{
+    color: #45C7A4;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .infoVip{
+    border-radius: 2px;
+    width: 91px;
+    height: 38px;
+    background-color:#32C27D;
+    font-size: 13px;
+    color: white;
+    padding: 0 11px;
+    cursor: pointer;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .money{
+    border: 1px solid #C9C9C9;
+    border-radius: 2px;
+    width: 65px;
+    height: 37px;
+    font-size: 13px;
+    padding: 0 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .infoVip:hover{
+    background-color: #31a965;
+}
+.header .header_mid .header_mid_top .usernameIfo ul .money:hover{
+    background-color: #e5e5e5;
+}
+
+    /*头部下方*/
+.header .header_mid .header_mid_down{
+    width: 1200px;
+    height: 52px;
+    border-top: 1px solid #f2f2f2;
+}
+.header .header_mid .header_mid_down ul{
+    display: block;
+    width: 944px;
+    height: 51px;
+    line-height: 51px;
+    list-style: none;
+    margin-left: 256px;
+}
+.header .header_mid .header_mid_down ul li{
+    display:inline-block;
+    float: left;
+    height: 51px;
+    line-height: 51px;
+    font-size: 15px;
+    margin-right: 56px;
+    cursor: pointer;
+}
+.header .header_mid .header_mid_down ul li:hover{
+    color: #45C7A4;
+}
+
+/*中部1*/
+.middle{
+    width: 100%;
+    height: 734px;
+    background: url("image/middle_background.jpg");
+}
+.middle .middle_Msg{
+    width: 1200px;
+    height: 682px;
+    border: 1px solid white;
+    margin: auto;
+    position: relative;
+}
+.middle .middle_Msg .title{
+    width: 490px;
+    height: 48px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+.middle .middle_Msg .title .line-left{
+    width: 72px;
+    height: 1px;
+    background-color: #494949;
+    position:absolute;
+    top:24px;
+    left: 0;
+}
+.middle .middle_Msg .title div{
+    position: relative;
+    width: 193px;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 150px;
+}
+.middle .middle_Msg .title .line-right{
+    width: 72px;
+    height: 1px;
+    background-color: #494949;
+    position:absolute;
+    top:24px;
+    right:0;
+}
+.middle .middle_Tab{
+    width: 1200px;
+    height: 50px;
+    margin-top: 43px;
+}
+.middle .middle_Msg .middle_Tab .middle_Tab_ul{
+    display: block;
+    list-style: none;
+    width: 525px;
+    height: 24px;
+    margin: auto;
+    color:#898989;
+}
+.middle .middle_Msg .middle_Tab .middle_Tab_ul li{
+    float: left;
+    width: 102px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.middle .middle_Msg .middle_Tab ul li:hover{
+    color: #EAEAEA;
+}
+.active{
+    color: #EAEAEA;
+}
+.middle .middle_Msg .middle_Tab .middle_All{
+    list-style: none;
+    position:absolute;
+    right: 0;
+    top:171px;
+    width: 50px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.middle .middle_Msg .middle_Tab .middle_All li:hover{
+    color: #32C27D;
+}
+
+/*tab*/
+.middle_info{
+    width:1200px;
+    height:415px;
+}
+/*tab1 内地*/
+.middle_info_pic{
+    height: 300px;
+    width: 1200px;
+
+}
+.middle_info_pic div i img{
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top:-170px;
+    display: none;
+}
+.middle_info_pic>div{
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden
+}
+.middle_info .middle_info_word{
+    height: 115px;
+    width: 1200px;
+    background: rgba(0,0,0,.6)
+}
+.middle_info .middle_info_word>div{
+    height:115px;
+    width: 300px;
+    float: left;
+}
+.middle_info .middle_info_word  .word1 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word2 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word3 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 84px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word4 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word div ul li{
+    padding-bottom:7px;
+    cursor: pointer;
+}
+.icon-word{
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    float: right;
+    margin-top: 3px;
+    background: url("image/icon-search.png")-81px -61px no-repeat;
+    display: none;
+}
+
+/*tab2 港台*/
+#gangtai{
+    display: none;
+}
+.middle_info .middle_info_word  .word5 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 88px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word6 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 125px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word7 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 125px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word8 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 105px;
+    margin-top: 35px;
+}
+
+/*tab3 欧美*/
+#oumei{
+    display: none;
+}
+.middle_info .middle_info_word  .word9 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 58px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word10 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word11 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 97px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word12 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 38px;
+    margin-top: 35px;
+}
+
+/*tab4 韩国*/
+#hanguo{
+    display: none;
+}
+.middle_info .middle_info_word  .word13 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 54px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word14 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 117px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word15 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 118px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word16 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 119px;
+    margin-top: 35px;
+}
+
+/*tab5 日本*/
+#japan{
+    display: none;
+}
+.middle_info .middle_info_word  .word17 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 95px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word18 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 102px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word19 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 43px;
+    margin-top: 35px;
+}
+.middle_info .middle_info_word  .word20 ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #919191;
+    margin-left: 71px;
+    margin-top: 35px;
+}
+
+/*轮播按钮*/
+.frame-btn{
+    width: 1200px;
+    height: 21px;
+    border: 1px solid red;
+    text-align: center;
+}
+.frame-btn ul{
+    list-style: none;
+}
+

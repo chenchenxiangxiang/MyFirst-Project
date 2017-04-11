@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="QQmusic.css">
+    <script src="jquery-3.1.1.js"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="header_mid">
+        <div class="header_mid_top">
+            <div class="logo">
+                <img src="image/logo.png">
+            </div>
+            <div class="header_mid_top_min">
+                <ul>
+                    <li style="background-color:#32C27D;color: white">音乐馆</li>
+                    <li>我的音乐</li>
+                    <li>下载客户端</li>
+                    <li>VIP</li>
+                </ul>
+            </div>
+            <div class="header_mid_top_search">
+                <div class="search_input">
+                        <input type="text" placeholder="陈奕迅">
+                        <button class="search_btn">
+                            <div class="icon_search"></div>
+                        </button>
+                </div>
+            </div>
+            <div class="usernameIfo">
+                <ul>
+                    <li class="login">登录</li>
+                    <li style="display: none">注销</li>
+                    <li class="infoVip">
+                       开通绿钻豪华版
+                    </li>
+                    <li class="money" style="text-align: center">
+                        开通付费
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_mid_down">
+                <ul>
+                    <li style="color:#45C7A4">首页</li>
+                    <li>歌手</li>
+                    <li>专辑</li>
+                    <li>排行榜</li>
+                    <li>分类歌单</li>
+                    <li>MV</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+<!--中部1-->
+<div class="middle">
+    <div class="middle_Msg">
+        <div class="title">
+                <i class="line-left"></i>
+                <div>
+                    <img src="image/word.png">
+                </div>
+                <i class="line-right"></i>
+        </div>
+        <div class="middle_Tab">
+            <ul class="middle_Tab_ul">
+                <li class="active">内地</li>
+                <li>港台</li>
+                <li>欧美</li>
+                <li>韩国</li>
+                <li>日本</li>
+            </ul>
+            <ul class="middle_All">
+                <li>全部&gt;</li>
+            </ul>
+        </div>
+        <!--内地-->
+        <div class="middle_info" id="neidi">
+                <div class="middle_info_pic">
+                    <div>
+                        <img src="image/pic1.jpg">
+                        <i>
+                            <img src="image/btn.png">
+                        </i>
+                    </div>
+                    <div>
+                        <img src="image/pic2.jpg">
+                        <i>
+                            <img src="image/btn.png">
+                        </i>
+                    </div>
+                    <div>
+                        <img src="image/pic3.jpg">
+                        <i>
+                            <img src="image/btn.png">
+                        </i>
+                    </div>
+                    <div>
+                        <img src="image/pic4.jpg">
+                        <i>
+                            <img src="image/btn.png">
+                        </i>
+                    </div>
+                </div>
+                <div class="middle_info_word">
+                    <div class="word1">
+                        <ul>
+                            <li style="color: #ffffff;">实名制<div class="icon-word"></div>
+                            </li>
+                            <li>好妹妹乐队</li>
+                        </ul>
+                    </div>
+                    <div class="word2">
+                        <ul>
+                            <li style="color: #ffffff;">歌手第11期<div class="icon-word"></div>
+                            </li>
+                            <li>歌手</li>
+                        </ul>
+                    </div>
+                    <div class="word3">
+                        <ul>
+                            <li style="color: #ffffff;">BANG THE WORLD<div class="icon-word"></div>
+                            </li>
+                            <li>张靓颖</li>
+                        </ul>
+                    </div>
+                    <div class="word4">
+                        <ul>
+                            <li style="color: #ffffff;">誓如当初<div class="icon-word"></div>
+                            </li>
+                            <li>许鹤缤</li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="frame-btn">
+                <ul>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--港台-->
+        <div class="middle_info"  id="gangtai">
+            <div class="middle_info_pic">
+                <div>
+                    <img src="image/pic5.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic6.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic7.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic8.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+            </div>
+            <div class="middle_info_word">
+                <div class="word5">
+                    <ul>
+                        <li style="color: #ffffff;">One Step Closer<div class="icon-word"></div></li>
+                        <li>周柏豪</li>
+                    </ul>
+                </div>
+                <div class="word6">
+                    <ul>
+                        <li style="color: #ffffff;">空姐<div class="icon-word"></div></li>
+                        <li>李幸倪</li>
+                    </ul>
+                </div>
+                <div class="word7">
+                    <ul>
+                        <li style="color: #ffffff;">同在<div class="icon-word"></div></li>
+                        <li>宋念宇</li>
+                    </ul>
+                </div>
+                <div class="word8">
+                    <ul>
+                        <li style="color: #ffffff;">我挺你<div class="icon-word"></div></li>
+                        <li>Under Lover</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame-btn" style="display: none">
+                <ul>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--欧美-->
+        <div class="middle_info" id="oumei">
+            <div class="middle_info_pic">
+                <div>
+                    <img src="image/pic9.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic10.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic11.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic12.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+            </div>
+            <div class="middle_info_word">
+                <div class="word9">
+                    <ul>
+                        <li style="color: #ffffff;">Memories...Do Not Open<div class="icon-word"></div></li>
+                        <li>The Chainsmokers</li>
+                    </ul>
+                </div>
+                <div class="word10">
+                    <ul>
+                        <li style="color: #ffffff;">PTX VoL.LV-Classics<div class="icon-word"></div></li>
+                        <li>Pentatonix</li>
+                    </ul>
+                </div>
+                <div class="word11">
+                    <ul>
+                        <li style="color: #ffffff;">Good Evening<div class="icon-word"></div></li>
+                        <li>Deorro</li>
+                    </ul>
+                </div>
+                <div class="word12">
+                    <ul>
+                        <li style="color: #ffffff;">Scared To Be Lonely(Acous...<div class="icon-word"></div></li>
+                        <li>Martin Garrix</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame-btn" style="display: none">
+                <ul>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--韩国-->
+        <div class="middle_info" id="hanguo">
+            <div class="middle_info_pic">
+                <div>
+                    <img src="image/pic13.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic14.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic15.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic16.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+            </div>
+            <div class="middle_info_word">
+                <div class="word13">
+                    <ul>
+                        <li style="color: #ffffff;">Fanfare(Japanese ver.)<div class="icon-word"></div></li>
+                        <li>SF9</li>
+                    </ul>
+                </div>
+                <div class="word14">
+                    <ul>
+                        <li style="color: #ffffff;">Universe<div class="icon-word"></div></li>
+                        <li>김동욱</li>
+                    </ul>
+                </div>
+                <div class="word15">
+                    <ul>
+                        <li style="color: #ffffff;">꽃, 달, 술<div class="icon-word"></div></li>
+                        <li>홍진영</li>
+                    </ul>
+                </div>
+                <div class="word16">
+                    <ul>
+                        <li style="color: #ffffff;">S.S.F.W<div class="icon-word"></div></li>
+                        <li>Babylon</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame-btn" style="display: none">
+                <ul>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--日本-->
+        <div class="middle_info" id="japan">
+            <div class="middle_info_pic">
+                <div>
+                    <img src="image/pic17.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic18.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic19.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+                <div>
+                    <img src="image/pic20.jpg">
+                    <i>
+                        <img src="image/btn.png">
+                    </i>
+                </div>
+            </div>
+            <div class="middle_info_word">
+                <div class="word17">
+                    <ul>
+                        <li style="color: #ffffff;">365色パレット<div class="icon-word"></div></li>
+                        <li>赤崎千夏</li>
+                    </ul>
+                </div>
+                <div class="word18">
+                    <ul>
+                        <li style="color: #ffffff;">Daydreamer<div class="icon-word"></div></li>
+                        <li>矢作紗友里</li>
+                    </ul>
+                </div>
+                <div class="word19">
+                    <ul>
+                        <li style="color: #ffffff;">into the world/メルヒェン<div class="icon-word"></div></li>
+                        <li>Kalafina</li>
+                    </ul>
+                </div>
+                <div class="word20">
+                    <ul>
+                        <li style="color: #ffffff;">良すた<div class="icon-word"></div></li>
+                        <li>きゃりーぱみゅぱみゅ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame-btn" style="display: none">
+                <ul>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                    <li>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="QQmusic.js" async></script>
+</body>
+</html>
